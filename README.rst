@@ -19,11 +19,11 @@ Overview
     :target: https://chemfileconverter.readthedocs.io/
     :alt: Documentation Status
 
-.. |requires| image:: https://requires.io/github/CollinStark/chemfileconverter/requirements.svg?branch=main
+.. |requires| image:: https://requires.io/github/CollinStark/chemfileconverter/requirements.svg?branch=master
     :alt: Requirements Status
-    :target: https://requires.io/github/CollinStark/chemfileconverter/requirements/?branch=main
+    :target: https://requires.io/github/CollinStark/chemfileconverter/requirements/?branch=master
 
-.. |codecov| image:: https://codecov.io/gh/CollinStark/chemfileconverter/branch/main/graphs/badge.svg?branch=main
+.. |codecov| image:: https://codecov.io/gh/CollinStark/chemfileconverter/branch/master/graphs/badge.svg?branch=master
     :alt: Coverage Status
     :target: https://codecov.io/github/CollinStark/chemfileconverter
 
@@ -45,7 +45,7 @@ Overview
 
 .. |commits-since| image:: https://img.shields.io/github/commits-since/CollinStark/chemfileconverter/v0.0.0.svg
     :alt: Commits since latest release
-    :target: https://github.com/CollinStark/chemfileconverter/compare/v0.0.0...main
+    :target: https://github.com/CollinStark/chemfileconverter/compare/v0.0.0...master
 
 
 
@@ -64,7 +64,7 @@ Installation
 
 You can also install the in-development version with::
 
-    pip install https://github.com/CollinStark/chemfileconverter/archive/main.zip
+    pip install https://github.com/CollinStark/chemfileconverter/archive/master.zip
 
 
 Documentation
