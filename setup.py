@@ -20,7 +20,7 @@ def read(*names, **kwargs):
 
 setup(
     name='chemfileconverter',
-    version='0.0.0',
+    version='0.0.1',
     license='BSD-2-Clause',
     description='A python converter for Chemical Table Files.',
     long_description='{}\n{}'.format(
