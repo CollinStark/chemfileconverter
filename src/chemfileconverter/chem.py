@@ -1,5 +1,7 @@
 import json
-from typing import IO, Any, TextIO
+from typing import IO
+from typing import Any
+from typing import TextIO
 
 
 def load(fp: TextIO) -> Any:
