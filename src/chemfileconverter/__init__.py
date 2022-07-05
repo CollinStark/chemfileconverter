@@ -4,8 +4,6 @@ from typing import IO
 from typing import Any
 from typing import TextIO
 
-from pyparsing import autoname_elements
-
 
 def load(fp: TextIO) -> Any:
     """Deserialize ``fp`` (a ``.read()``-supporting file-like object containing
