@@ -43,9 +43,9 @@ Overview
     :alt: Supported implementations
     :target: https://pypi.org/project/chemfileconverter
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/CollinStark/chemfileconverter/v0.0.1.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/CollinStark/chemfileconverter/v0.1.0.svg
     :alt: Commits since latest release
-    :target: https://github.com/CollinStark/chemfileconverter/compare/v0.0.1...master
+    :target: https://github.com/CollinStark/chemfileconverter/compare/v0.1.0...master
 
 
 
