@@ -187,6 +187,8 @@ def dumps(obj: Any) -> str:
         bond_block = ''
         for entry in mol['bond_block']:
             for key, value in entry.items():
+                if key == 'id':
+                    continue
                 white_space = ' '*(3-len(str(value)))
                 bond_block += f'{white_space}{value}'
             bond_block += '\n'
