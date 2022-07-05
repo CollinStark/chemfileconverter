@@ -1,6 +1,6 @@
 import json
 
-from chemfileconverter import chem
+from chemfileconverter import load
 from chemfileconverter.cli import main
 
 
@@ -10,7 +10,7 @@ def test_main():
 
 def test_simple_rxn_load():
     with open('tests/data/test_simple.rxn', 'r') as simple_rxn:
-        chem_json = chem.load(simple_rxn)
+        chem_json = load(simple_rxn)
     with open('tests/data/test_simple.json', 'r') as simple_json:
         json_result = json.load(simple_json)
 
@@ -19,7 +19,7 @@ def test_simple_rxn_load():
 
 def test_simple_rxn_long_load():
     with open('tests/data/test_simple_long_aam.rxn', 'r') as simple_rxn:
-        chem_json = chem.load(simple_rxn)
+        chem_json = load(simple_rxn)
     with open('tests/data/test_simple_long_aam.json', 'r') as simple_json:
         json_result = json.load(simple_json)
 
